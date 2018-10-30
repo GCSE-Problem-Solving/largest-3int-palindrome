@@ -13,6 +13,3 @@ for (let x = 999; x >= 100; x--) {
     }
 
 }
-/*if(z === reversedNumber) {
-    console.log("Palindrome found: " + z)
-}*/

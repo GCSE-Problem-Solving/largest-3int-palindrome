@@ -9,7 +9,8 @@ for (let x = 999; x >= 100; x--) {
         let reversedString = reversedArray.join(""); //joins the strings back together into one whole string
         let reversedNumber = parseInt(reversedString); //changes string to a number
         if(z === reversedNumber) { 
-            console.log("palindrome found: " + z) //if the number is a palindrome, log it to the console.
+            console.log("palindrome found: " + z)
+            break;//if the number is a palindrome, log it to the console then stop the code.
         }
     }
 
